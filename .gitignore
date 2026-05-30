@@ -1,0 +1,22 @@
+# Power BI Temporary and Backup Files
+*.pbix.tmp
+*.pbit
+*.pbip
+*.pbi
+
+# Data Directory (Excluding placeholders)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# System and OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE Settings
+.vscode/
+.idea/
+*.suo
+*.user
